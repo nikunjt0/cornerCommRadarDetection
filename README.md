@@ -12,7 +12,7 @@ This repository is for the submission of the final project for the CS 437 EKS cl
 ### Hardware Setup
 Connect the radar to a computer using the USB cable. Take note of what port is being used. Follow instructions in `Visualizer.zip`.
 To setup the corner reflector, you will need a 3-wire 5V servo. The Tower Pro 9g is what we used. Wire up the servo to pins 4 (5V power), 6 (ground), and 11 (GPIO17). Other pins could be used but would require modification of the code in `run_servo.py`.
-To setup the corner reflector, attach it to the servo securely. We used a small binder clip. It may also be helpful to have an enclosure or some structure to securely hold the servo. If you have the ability, you can print the servo holder in `Servo holder.zip` to do this job.
+To setup the corner reflector, attach it to the servo securely. We used a small binder clip. It may also be helpful to have an enclosure or some structure to securely hold the servo. If you have the ability, you can print the servo holder we made in `Servo holder.zip` to do this job.
 ### How to run the code / use the system
 ##### Radar
 Using the COM port you took note of, use the visualizer GUI to run the radar. Use Final.cfg as the config file. The data will automatically be saved to a folder of bin files. 
