@@ -21,6 +21,6 @@ If the servo has been wired up correctly, running run_servo.py should result in 
 ##### Data Processing
 Access the `final_project.ipynb` jupyter notebook. In the notebook, you will need to replace binFilePath with the path to the folder that your binary files are contained in for the specific run you want to analyze. Additionally, modify the num_files variable to indicate the number of binary files in your folder. Lastly, you may find on occasion that you need to modify the height parameter in the find_peaks function to result in better data processing. 
 ### Radar Data
-There are a few example files that are included in `Example files.zip` that can be used to run the data processing part of the project and see how the system worked in different situations.
+There are a few example files that are included in `Example files.zip` that can be used to run the data processing part of the project and see how the system worked in different situations. More data can be found in the `Visualizer.zip` folder but that includes all of our data collected for many different runs and even for different projects.
 ### Special Instructions
 If you have not set up the radar or the GUI to collect the radar data, follow the instructions in `Visualizer.zip`.
