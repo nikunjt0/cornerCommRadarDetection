@@ -8,7 +8,7 @@ This repository is for the submission of the final project for the CS 437 EKS cl
 - `Visualizer.zip` : Contains the files (and instructions) needed to run the radar and collect the data
 - `final_project.ipynb` : The Jupyter notebook that contains the data processing code
 - `parseTLVs.py` and `parse_bin_output.py` : Files that contain helper functions used as part of the data processing. The files were provided by the class.
-- `run_servo.py` : This file contains the code needed to run 
+- `run_servo.py` : This file contains the code needed to run the servo motor that holds the corner reflector
 ### Hardware Setup
 Connect the radar to a computer using the USB cable. Take note of what port is being used. Follow instructions in `Visualizer.zip`.
 To setup the corner reflector, you will need a 3-wire 5V servo. The Tower Pro 9g is what we used. Wire up the servo to pins 4 (5V power), 6 (ground), and 11 (GPIO17). Other pins could be used but would require modification of the code in `run_servo.py`.
